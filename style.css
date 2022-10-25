@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --Pale_blue: hsl(225, 100%, 94%);
+    --Bright_blue: hsl(245, 75%, 52%);
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Pale_blue);
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top 0px left 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.main_container{
+    overflow: hidden;
+    border-radius: 20px;
+    width: 325px;
+    height: 567px;
+}
+.photo_container{
+    height: 165px;
+}
+.photo_container img{
+    height: 165px;
+}
+.info_container{
+    box-sizing: border-box;
+    padding: 20px 18px;
+    height: 405px;
+    width: 100%;
+    background-color: white;
+}
+.offer_description_container{
+    text-align: center;
+    padding: 0px 12px 10px;
+    margin-bottom: 18px;
+}
+h1{
+    color: var(--Dark_blue);
+    font-size: 1.5rem;
+    margin-bottom: 13px;
+}
+p{  
+    color: var(--Desaturated_blue);
+    line-height: 23px;
+    font-size: 1rem;
+}
+.Plan_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
