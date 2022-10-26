@@ -153,7 +153,6 @@ p{
     }
 }
 @media screen and (min-width: 576px) and (min-height: 760px){
-
     .attribution {
         position: fixed;
         bottom: 0.325rem;
