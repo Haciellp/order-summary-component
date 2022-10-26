@@ -144,8 +144,8 @@ p{
     .main_container {
         overflow: hidden;
         border-radius: 20px;
-        max-width: 350px;
-        max-height: 592px;
+        max-width: 450px;
+        max-height: 700px;
     }
     body{
         background-image: url(./images/pattern-background-desktop.svg);
