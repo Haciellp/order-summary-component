@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 .main_container{
@@ -133,6 +133,7 @@ p{
     text-decoration: none;
 }
 .attribution { 
+    margin-top: 2rem;
     font-size: 11px; 
     text-align: center; 
 }
@@ -148,6 +149,14 @@ p{
         max-height: 645px;
     }
     body{
-        background-image: url(./images/pattern-background-desktop.svg);
+        background-image: url(./images/);
+    }
+}
+@media screen and (min-width: 576px) and (min-height: 760px){
+
+    .attribution {
+        position: fixed;
+        bottom: 0.325rem;
+        width: 100%;
     }
 }
